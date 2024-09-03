@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="tables.html">
+                        Tables
+                    </a>
+                </li>
+                <li>
+                    <a href="forms.html">
+                        Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="media.html">
+                        Media
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            Forms
+        </h1>
+    </header>
+    <main>
+        <!--Beginning of the form element -->
+        <form action="/submit" method="post">
+            <!-- Label and text input field -->
+            <label for="username">
+                Username:
+            </label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username">
+            <br>
+            <!-- adds a line break-->
+            <!-- Label and password input field-->
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password">
+            <br>
+            <!-- Label and email input field-->
+            <label for="email">
+                Email:
+            </label>
+            <input type="email" id="email" name="email" placeholder="exmple@exmple.com">
+            <br>
+            <!-- Label and number input field -->
+             <label for="age">
+                Age:
+            </label>
+            <input type="number" name="age" id="age" min="1" max="100">
+            <br>
+            <!--Radio buttons for gender selection -->
+            <label for="male">
+                Male:
+            </label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">
+                Female:
+            </label>
+            <input type="radio" name="gender" id="female" value="female">
+            <br>
+            <!-- Checkbox for newsletter subscription -->
+             <label for="subscribe">
+                Subscribe to newsletter
+             </label>
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; Copyright 2024
+        </p>
+        <a href="">git.hub</a>
+    </footer>
 </body>
 </html>
