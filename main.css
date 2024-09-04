@@ -1,0 +1,88 @@
+/*********************************************************
+* Description: Primary style sheet for Jobba Inc
+* Author:      Joaquin Gomez
+*********************************************************/
+
+/* This is the css for the header */
+.headercontainer{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: #55d6aa;
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header h1{
+    padding: 0px;
+    text-align: center;
+}
+.logo{
+    float: left;
+    padding: 10px 0;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+    color: #000;
+}
+nav a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+}
+nav a:hover::before{
+    width: 100%;
+    transition: all ease-in-out 250ms;
+}
+body{
+    background-color: #55d6aa;
+    margin: 10px;
+}
+
+h2{
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+}
+h4{
+    margin-left: 40px;
+}
+h4 img{
+    float: left;
+    padding: 0;
+}
+p{
+    margin: 50px;
+}
+address{
+    margin: 80px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
