@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 header{
-    background-color: #55d6aa;
+    background-color: #138284;
 }
 header::after{
     content: "";
@@ -58,8 +58,76 @@ nav a:hover::before{
     width: 100%;
     transition: all ease-in-out 250ms;
 }
+.homenav{
+    float:left
+}
+.homenav ul{
+margin: 0;
+}
+.homenav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+.homenav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.homenav a:hover{
+    color: #000;
+}
+.homenav a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+}
+.homenav a:hover::before{
+    width: 100%;
+    transition: all ease-in-out 250ms;
+}
+.butnav{
+    float:right;
+}
+.butnav ul{
+margin: 0;
+}
+.butnav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+.butnav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.butnav a:hover{
+    color: #000;
+}
+.butnav a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+}
+.butnav a:hover::before{
+    width: 100%;
+    transition: all ease-in-out 250ms;
+}
 body{
-    background-color: #55d6aa;
+    background-color: #197996;
     margin: 10px;
 }
 
@@ -83,6 +151,7 @@ address{
     margin: 80px;
 }
 footer{
+    background-color: rgba(54, 184, 184, 0.527);
     text-align: center;
     color: white;
 }
