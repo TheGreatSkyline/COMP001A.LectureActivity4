@@ -59,7 +59,7 @@
     <!-- End of the audio section -->
     <hr>
     <!-- beginning of the video section -->
-    <section>
+    <section id="videoSample">
         <!-- Heading for the video section -->
         <h2>
             Video with control
@@ -67,9 +67,7 @@
         <!-- The 'controls' attribute adds video controls, like play, pause, and volume -->
         <video width="320" height="240" controls>
             <!-- -->
-            <script>
-                document.querySelectorAll('video').forEach(function(el, i) { el.playbackRate = .25; });
-            </script>            
+                       
             <!--Source for the video file -->
             <!-- The 'src' attribute specifies the path to the video file -->
             <source src="media/sampson.mp4" type="video/mp4">
