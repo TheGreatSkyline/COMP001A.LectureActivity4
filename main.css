@@ -93,7 +93,8 @@ margin: 0;
     transition: all ease-in-out 250ms;
 }
 .butnav{
-    float:right;
+    display: flex;
+    justify-content: center;
 }
 .butnav ul{
 margin: 0;
